@@ -1,0 +1,25 @@
+{
+	"name":"xplqcloud/cos",
+	"type":"yii2-extension",
+	"description":"yii2扩展组件测试",
+	"keywords":["yii2","test","test"],
+	"license":"MIT",
+	"support":{
+		"issues":"https://github.com/gaojiabo/yii-extension-test.git/issues",
+		"source":"https://github.com/gaojiabo/yii-extension-test.git"
+	},
+    "authors": [
+		{
+			"name": "gaojianbo",
+			"email": "419638354@qq.com"
+		}
+	],
+	"require":{
+		"yiisoft/yii2":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"xplqcloud\\cos\\":"src/"
+		}
+	}
+}
